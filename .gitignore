@@ -2,11 +2,14 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Prometheus-DotNetCore/.vs/Prometheus-DotNetCore/v15
-/Prometheus-DotNetCore/bin/Debug/netcoreapp2.2
-/Prometheus-DotNetFull/MVC/.vs/Prometheus-DotNetFull-MVC/v15
-/Prometheus-DotNetFull/MVC/packages
-/Prometheus-DotNetFull/WebForms/.vs/Prometheus-DotNetFull-WebForms/v15/Server/sqlite3
-/Prometheus-DotNetFull/WebForms/packages
-/Prometheus-DotNetFull/WebForms/Prometheus-DotNetFull-WebForms/Bin
-/Prometheus-DotNetCore/obj
+.vs
+bin
+obj
+packages
+*.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.dtbcache
+*.sqlite
